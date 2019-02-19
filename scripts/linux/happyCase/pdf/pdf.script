@@ -1,0 +1,47 @@
+#
+# Move to PDF menu 
+#
+mouseMoved menuPdf
+#
+# Click on tab
+#
+mouseClicked 1
+delay waitClick
+#
+# Move to "Pdf/Create" menu
+#
+mouseMoved menuPdfCreate
+#
+# Click on tab
+#
+mouseClicked 1
+delay waitClick
+#
+# Delay some time to allow system to write the file
+#
+delay waitCapture
+delay waitCapture
+delay waitCapture
+delay waitCapture
+delay waitCapture
+delay waitCapture
+delay waitCapture
+delay waitCapture
+#
+# Move to filename dialog menu
+#
+mouseMoved menuPdfCreateDialogOk
+#
+# Click on tab
+#
+mouseClicked 1
+delay waitClick
+#
+# Write the Pdf to a text file
+#
+run pdftotext /logs/pdf/demo0000000000.pdf logs/pdf/demo0000000000.txt
+#
+# Copy the generated file to images/actual/happyCase
+#
+run mv logs/pdf/demo0000000000.txt images/actual/happyCase 
+

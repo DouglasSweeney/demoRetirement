@@ -1,0 +1,20 @@
+#
+# Move to output Savings Graph tab
+#
+mouseMoved outputSavingsGraphTab
+#
+# Click on tab
+#
+mouseClicked 1
+delay waitClick
+#
+# Delay some time to allow the graph to be generated
+#
+delay waitCapture
+#
+# Screen Capture
+#
+captureFile   happyCase/outputsSavingsGraph
+screenCapture captureOutputTextArea
+delay         waitCapture
+

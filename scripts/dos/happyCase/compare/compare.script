@@ -1,0 +1,111 @@
+delay captureWait
+#
+# Compare the 401K files
+#
+run fc /a /b images\expected\dos\happyCase\inputs401k.png images\actual\dos\happyCase\inputs401k.png
+run fc /a /b images\expected\dos\happyCase\outputs401k.png images\actual\dos\happyCase\outputs401k.png
+run fc /a /b images\expected\dos\happyCase\outputs401k2.png images\actual\dos\happyCase\outputs401k2.png
+#
+# Compare the 403B files
+#
+run fc /a /b images\expected\dos\happyCase\inputs403b.png images\actual\dos\happyCase\inputs403b.png
+run fc /a /b images\expected\dos\happyCase\outputs403b.png images\actual\dos\happyCase\outputs403b.png
+run fc /a /b images\expected\dos\happyCase\outputs403b2.png images\actual\dos\happyCase\outputs403b2.png
+#
+# Compare the Brokerage files
+#
+run fc /a /b images\expected\dos\happyCase\inputsBrokerage.png images\actual\dos\happyCase\inputsBrokerage.png
+run fc /a /b images\expected\dos\happyCase\outputsBrokerage.png images\actual\dos\happyCase\outputsBrokerage.png
+run fc /a /b images\expected\dos\happyCase\outputsBrokerage2.png images\actual\dos\happyCase\outputsBrokerage2.png
+#
+# Compare the Cash Balance files
+#
+run fc /a /b images\expected\dos\happyCase\inputsCashBalance.png images\actual\dos\happyCase\inputsCashBalance.png
+run fc /a /b images\expected\dos\happyCase\outputsCashBalance.png images\actual\dos\happyCase\outputsCashBalance.png
+run fc /a /b images\expected\dos\happyCase\outputsCashBalance2.png images\actual\dos\happyCase\outputsCashBalance2.png
+#
+# Compare the Deductions files
+#
+run fc /a /b images\expected\dos\happyCase\inputsDeductions.png images\actual\dos\happyCase\inputsDeductions.png
+run fc /a /b images\expected\dos\happyCase\outputsDeductions.png images\actual\dos\happyCase\outputsDeductions.png
+run fc /a /b images\expected\dos\happyCase\outputsDeductions2.png images\actual\dos\happyCase\outputsDeductions2.png
+#
+# Compare the Expenses files
+#
+run fc /a /b images\expected\dos\happyCase\inputsExpenses.png images\actual\dos\happyCase\inputsExpenses.png
+run fc /a /b images\expected\dos\happyCase\outputsExpenses.png images\actual\dos\happyCase\outputsExpenses.png
+run fc /a /b images\expected\dos\happyCase\outputsExpenses2.png images\actual\dos\happyCase\outputsExpenses2.png
+#
+# Compare the Income Graph files
+#
+run fc /a /b images\expected\dos\happyCase\outputsIncomeGraph.png images\actual\dos\happyCase\outputsIncomeGraph.png
+#
+# Compare the Ira files
+#
+run fc /a /b images\expected\dos\happyCase\inputsIra.png images\actual\dos\happyCase\inputsIra.png
+run fc /a /b images\expected\dos\happyCase\outputsIra.png images\actual\dos\happyCase\outputsIra.png
+run fc /a /b images\expected\dos\happyCase\outputsIra2.png images\actual\dos\happyCase\outputsIra2.png
+#
+# Compare the Pension files
+#
+run fc /a /b images\expected\dos\happyCase\inputsPension.png images\actual\dos\happyCase\inputsPension.png
+run fc /a /b images\expected\dos\happyCase\outputsPension.png images\actual\dos\happyCase\outputsPension.png
+run fc /a /b images\expected\dos\happyCase\outputsPension2.png images\actual\dos\happyCase\outputsPension2.png
+#
+# Compare the Personal files
+#
+run fc /a /b images\expected\dos\happyCase\inputsPersonal.png images\actual\dos\happyCase\inputsPersonal.png
+#
+# Compare the Roth Ira files
+#
+run fc /a /b images\expected\dos\happyCase\inputsRoth.png images\actual\dos\happyCase\inputsRoth.png
+run fc /a /b images\expected\dos\happyCase\outputsRoth.png images\actual\dos\happyCase\outputsRoth.png
+run fc /a /b images\expected\dos\happyCase\outputsRoth2.png images\actual\dos\happyCase\outputsRoth2.png
+#
+# Compare the Salary files
+#
+run fc /a /b images\expected\dos\happyCase\inputsSalary.png images\actual\dos\happyCase\inputsSalary.png
+run fc /a /b images\expected\dos\happyCase\outputsSalary.png images\actual\dos\happyCase\outputsSalary.png
+run fc /a /b images\expected\dos\happyCase\outputsSalary2.png images\actual\dos\happyCase\outputsSalary2.png
+#
+# Compare the Savings files
+#
+run fc /a /b images\expected\dos\happyCase\inputsSavings.png images\actual\dos\happyCase\inputsSavings.png
+run fc /a /b images\expected\dos\happyCase\outputsSavings.png images\actual\dos\happyCase\outputsSavings.png
+run fc /a /b images\expected\dos\happyCase\outputsSavings2.png images\actual\dos\happyCase\outputsSavings2.png
+#
+# Compare the Savings Graph files
+#
+run fc /a /b images\expected\dos\happyCase\outputsSavingsGraph.png images\actual\dos\happyCase\outputsSavingsGraph.png
+#
+# Compare the Social Security files
+#
+run fc /a /b images\expected\dos\happyCase\inputsSocialSecurity.png images\actual\dos\happyCase\inputsSocialSecurity.png
+run fc /a /b images\expected\dos\happyCase\outputsSocialSecurity.png images\actual\dos\happyCase\outputsSocialSecurity.png
+run fc /a /b images\expected\dos\happyCase\outputsSocialSecurity2.png images\actual\dos\happyCase\outputsSocialSecurity2.png
+#
+# Compare the Taxes files
+#
+run fc /a /b images\expected\dos\happyCase\inputsTaxes.png images\actual\dos\happyCase\inputsTaxes.png
+run fc /a /b images\expected\dos\happyCase\outputsTaxes.png images\actual\dos\happyCase\outputsTaxes.png
+run fc /a /b images\expected\dos\happyCase\outputsTaxes2.png images\actual\dos\happyCase\outputsTaxes2.png
+#
+# Compare the generated xml file (Inputs/Save)
+#      401K Growth Rate changed
+#
+run fc images\expected\dos\happyCase\demo.xml images\actual\dos\happyCase\demo.xml
+#
+# Compare the generated xml file (Inputs/Save As)
+#
+run fc images\expected\dos\happyCase\temp.xml images\actual\dos\happyCase\temp.xml
+#
+# Compare the generated pdf file (Pdf/Create).
+# As a secondary test; check the sizes 
+#
+run fc images\expected\dos\happyCase\demo0000000000.txt images\actual\dos\happyCase\demo0000000000.txt
+run cmd /c "dir images\expected\dos\happyCase\demo0000000000.pdf"
+run cmd /c "dir images\actual\dos\happyCase\demo0000000000.pdf"
+#
+# Let the user know to go to the terminal to look at the compares.
+#
+run cmd /c "type scripts\dos\beep.txt"

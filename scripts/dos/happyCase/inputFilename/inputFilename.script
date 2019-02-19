@@ -1,0 +1,95 @@
+#
+# Move to input filename text area
+#
+mouseMoved entryInputFilenameTextArea
+#
+# Click on tab
+#
+mouseClicked 1
+delay waitClick
+#
+# Press/Release the 'd' button.
+# The codes can be determined by googling "java api 8 doc keyevent"
+#     and then click on "Field" in the table.
+#
+keyPressed  68
+keyReleased 68
+delay waitKeyTyped
+#
+# Press/Release the 'o' button
+#
+keyPressed  79
+keyReleased 79
+delay waitKeyTyped
+#
+# Press/Release the 's' button
+#
+keyPressed  83
+keyReleased 83
+delay waitKeyTyped
+#
+# Press/Release the '/' button
+#
+keyPressed  47 
+keyReleased 47
+delay waitKeyTyped
+#
+# Press/Release the 'd' button.
+#
+keyPressed  68
+keyReleased 68
+delay waitKeyTyped
+#
+# Press/Release the 'e' button
+#
+keyPressed  69
+keyReleased 69
+delay waitKeyTyped
+#
+# Press/Release the 'm' button
+#
+keyPressed  77
+keyReleased 77
+delay waitKeyTyped
+#
+# Press/Release the 'o' button
+#
+keyPressed  79
+keyReleased 79
+delay waitKeyTyped
+#
+# Press/Release the '.' button
+#
+keyPressed  46
+keyReleased 46
+delay waitKeyTyped
+#
+# Press/Release the 'x' button
+#
+keyPressed  88
+keyReleased 88
+delay waitKeyTyped
+#
+# Press/Release the 'm' button
+#
+keyPressed  77
+keyReleased 77
+delay waitKeyTyped
+#
+# Press/Release the 'l' button
+#
+keyPressed  76
+keyReleased 76
+delay waitKeyTyped
+#
+# Move to "Open" button
+#
+mouseMoved entryInputFilenameOpenButton
+#
+# Click on button
+#
+mouseClicked 1
+#
+# Delay some time to allow system to setup the main screen
+#
+delay waitSoftwareUnderTest

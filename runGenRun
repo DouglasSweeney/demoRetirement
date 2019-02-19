@@ -1,0 +1,2 @@
+java -Xms512m -Xmx3072m -cp . -jar GenRun.jar --capturedir images/actual/linux --scriptdir scripts/linux --define defines.script scripts/linux/main.script
+# java -Xms256m -Xmx1024m -cp . -jar GenRun.jar main.java.Main --capturedir images/actual --scriptdir scripts/linux --define defines.script scripts/happyCase/compare/compare.script

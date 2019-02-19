@@ -1,0 +1,46 @@
+#
+# Move to input 401k tab
+#
+mouseMoved input401kTab
+#
+# Click on tab
+#
+mouseClicked 1
+delay waitClick
+#
+# Screen Capture
+#
+captureFile   happyCase/inputs401k
+screenCapture captureInputEntries
+delay         waitCapture
+#
+# Move to output 401k tab
+#
+mouseMoved output401kTab
+#
+# Click on tab
+#
+mouseClicked 1
+delay waitClick
+#
+# Screen Capture
+#
+captureFile   happyCase/outputs401k
+screenCapture captureOutputTextArea
+delay         waitCapture
+#
+# Move to an empty area below the output scroll bar
+#
+mouseMoved outputScrollBarEmptyArea
+#
+# Click on tab
+#
+mouseClicked 1
+delay waitClick
+#
+# Screen Capture
+#
+captureFile   happyCase/outputs401k2
+screenCapture captureOutputTextArea
+delay         waitCapture
+

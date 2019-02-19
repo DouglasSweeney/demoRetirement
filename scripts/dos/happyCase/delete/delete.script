@@ -1,0 +1,65 @@
+run cmd.exe /c "del images\actual\dos\happyCase\inputs401k.png"
+run cmd.exe /c "del images\actual\dos\happyCase\outputs401k.png"
+run cmd.exe /c "del images\actual\dos\happyCase\outputs401k2.png"
+
+run cmd.exe /c "del images\actual\dos\happyCase\inputs403b.png"
+run cmd.exe /c "del images\actual\dos\happyCase\outputs403b.png"
+run cmd.exe /c "del images\actual\dos\happyCase\outputs403b2.png"
+
+run cmd.exe /c "del images\actual\dos\happyCase\inputsBrokerage.png"
+run cmd.exe /c "del images\actual\dos\happyCase\outputsBrokerage.png"
+run cmd.exe /c "del images\actual\dos\happyCase\outputsBrokerage2.png"
+
+run cmd.exe /c "del images\actual\dos\happyCase\inputsCashBalance.png"
+run cmd.exe /c "del images\actual\dos\happyCase\outputsCashBalance.png"
+run cmd.exe /c "del images\actual\dos\happyCase\outputsCashBalance2.png"
+
+run cmd.exe /c "del images\actual\dos\happyCase\inputsDeductions.png"
+run cmd.exe /c "del images\actual\dos\happyCase\outputsDeductions.png"
+run cmd.exe /c "del images\actual\dos\happyCase\outputsDeductions2.png"
+
+run cmd.exe /c "del images\actual\dos\happyCase\inputsExpenses.png"
+run cmd.exe /c "del images\actual\dos\happyCase\outputsExpenses.png"
+run cmd.exe /c "del images\actual\dos\happyCase\outputsExpenses2.png"
+
+run cmd.exe /c "del images\actual\dos\happyCase\outputsIncomeGraph.png"
+
+run cmd.exe /c "del images\actual\dos\happyCase\inputsIra.png"
+run cmd.exe /c "del images\actual\dos\happyCase\outputsIra.png"
+run cmd.exe /c "del images\actual\dos\happyCase\outputsIra2.png"
+
+run cmd.exe /c "del images\actual\dos\happyCase\inputsPension.png"
+run cmd.exe /c "del images\actual\dos\happyCase\outputsPension.png"
+run cmd.exe /c "del images\actual\dos\happyCase\outputsPension2.png"
+
+run cmd.exe /c "del images\actual\dos\happyCase\inputsPersonal.png"
+
+run cmd.exe /c "del images\actual\dos\happyCase\inputsRoth.png"
+run cmd.exe /c "del images\actual\dos\happyCase\outputsRoth.png"
+run cmd.exe /c "del images\actual\dos\happyCase\outputsRoth2.png"
+
+run cmd.exe /c "del images\actual\dos\happyCase\inputsSalary.png"
+run cmd.exe /c "del images\actual\dos\happyCase\outputsSalary.png"
+run cmd.exe /c "del images\actual\dos\happyCase\outputsSalary2.png"
+
+run cmd.exe /c "del images\actual\dos\happyCase\inputsSavings.png"
+run cmd.exe /c "del images\actual\dos\happyCase\outputsSavings.png"
+run cmd.exe /c "del images\actual\dos\happyCase\outputsSavings2.png"
+
+run cmd.exe /c "del images\actual\dos\happyCase\outputsSavingsGraph.png"
+
+run cmd.exe /c "del images\actual\dos\happyCase\inputsSocialSecurity.png"
+run cmd.exe /c "del images\actual\dos\happyCase\outputsSocialSecurity.png"
+run cmd.exe /c "del images\actual\dos\happyCase\outputsSocialSecurity2.png"
+
+run cmd.exe /c "del images\actual\dos\happyCase\inputsTaxes.png"
+run cmd.exe /c "del images\actual\dos\happyCase\outputsTaxes.png"
+run cmd.exe /c "del images\actual\dos\happyCase\outputsTaxes2.png"
+
+run cmd.exe /c "del images\actual\dos\happyCase\demo.xml"
+
+run cmd.exe /c "del images\actual\dos\happyCase\temp.xml"
+
+run cmd.exe /c "del logs/pdf/demo0000000000.pdf"
+run cmd.exe /c "del logs/pdf/demo0000000000.txt"
+

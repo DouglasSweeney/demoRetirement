@@ -1,0 +1,6 @@
+2019-02-09 09:42:01 TRACE [main.java.ApplicationLogger:41] - Leaving logger constructor
+2019-02-09 09:42:01 TRACE [main.java.ApplicationLogger:41] - Entering main() constructor
+2019-02-09 09:42:11 TRACE [main.java.ApplicationLogger:41] - Entered logger constructor
+2019-02-09 09:42:11 TRACE [main.java.ApplicationLogger:41] - Leaving logger constructor
+2019-02-09 09:42:54 TRACE [main.java.ApplicationLogger:41] - lastX = 679
+2019-02-09 09:42:54 TRACE [main.java.ApplicationLogger:41] - lastY = 414

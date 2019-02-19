@@ -1,0 +1,47 @@
+#
+# Move to input 403b tab
+#
+mouseMoved input403bTab
+#
+# Click on tab
+#
+mouseClicked 1
+delay        waitClick
+#
+# Screen Capture
+#
+captureFile   happyCase/inputs403b
+screenCapture captureInputEntries
+delay         waitCapture
+#
+# Move to output 403b tab
+#
+mouseMoved output403bTab
+#
+# Click on tab
+#
+mouseClicked 1
+delay        waitClick
+#
+# Screen Capture
+#
+captureFile   happyCase/outputs403b
+screenCapture captureOutputTextArea
+delay         waitCapture
+#
+# Move to scroll bar down
+#
+mouseMoved outputScrollBarEmptyArea
+#
+# Click on tab
+#
+mouseClicked 1
+delay        waitClick
+#
+# Screen Capture
+#
+captureFile   happyCase/outputs403b2
+screenCapture captureOutputTextArea
+delay         waitCapture
+
+

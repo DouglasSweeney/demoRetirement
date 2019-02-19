@@ -1,0 +1,200 @@
+run sync --file-system
+delay captureWait
+#
+# Compare the 401K files
+#
+run sync --data images/actual/linux/happyCase/inputs401k.png
+run sync --data images/actual/linux/happyCase/outputs401k.png
+run sync --data images/actual/linux/happyCase/outputs401k2.png
+run sync --data images/expected/linux/happyCase/inputs401k.png
+run sync --data images/expected/linux/happyCase/outputs401k.png
+run sync --data images/expected/linux/happyCase/outputs401k2.png
+run cmp images/expected/linux/happyCase/inputs401k.png images/actual/linux/happyCase/inputs401k.png
+run cmp images/expected/linux/happyCase/outputs401k.png images/actual/linux/happyCase/outputs401k.png
+run cmp images/expected/linux/happyCase/outputs401k2.png images/actual/linux/happyCase/outputs401k2.png
+#
+# Compare the 403B files
+#
+run sync --data images/actual/linux/happyCase/inputs403b.png
+run sync --data images/actual/linux/happyCase/outputs403b.png
+run sync --data images/actual/linux/happyCase/outputs403b2.png
+run sync --data images/expected/linux/happyCase/inputs403b.png
+run sync --data images/expected/linux/happyCase/outputs403b.png
+run sync --data images/expected/linux/happyCase/outputs403b2.png
+run cmp images/expected/linux/happyCase/inputs403b.png images/actual/linux/happyCase/inputs403b.png
+run cmp images/expected/linux/happyCase/outputs403b.png images/actual/linux/happyCase/outputs403b.png
+run cmp images/expected/linux/happyCase/outputs403b2.png images/actual/linux/happyCase/outputs403b2.png
+#
+# Compare the Brokerage files
+#
+run sync --data images/actual/linux/happyCase/inputsBrokerage.png
+run sync --data images/actual/linux/happyCase/outputsBrokerage.png
+run sync --data images/actual/linux/happyCase/outputsBrokerage2.png
+run sync --data images/expected/linux/happyCase/inputsBrokerage.png
+run sync --data images/expected/linux/happyCase/outputsBrokerage.png
+run sync --data images/expected/linux/happyCase/outputsBrokerage2.png
+run cmp images/expected/linux/happyCase/inputsBrokerage.png images/actual/linux/happyCase/inputsBrokerage.png
+run cmp images/expected/linux/happyCase/outputsBrokerage.png images/actual/linux/happyCase/outputsBrokerage.png
+run cmp images/expected/linux/happyCase/outputsBrokerage2.png images/actual/linux/happyCase/outputsBrokerage2.png
+#
+# Compare the Cash Balance files
+#
+run sync --data images/actual/linux/happyCase/inputsCashBalance.png
+run sync --data images/actual/linux/happyCase/outputsCashBalance.png
+run sync --data images/actual/linux/happyCase/outputsCashBalance2.png
+run sync --data images/expected/linux/happyCase/inputsCashBalance.png
+run sync --data images/expected/linux/happyCase/outputsCashBalance.png
+run sync --data images/expected/linux/happyCase/outputsCashBalance2.png
+run cmp images/expected/linux/happyCase/inputsCashBalance.png images/actual/linux/happyCase/inputsCashBalance.png
+run cmp images/expected/linux/happyCase/outputsCashBalance.png images/actual/linux/happyCase/outputsCashBalance.png
+run cmp images/expected/linux/happyCase/outputsCashBalance2.png images/actual/linux/happyCase/outputsCashBalance2.png
+#
+# Compare the Deductions files
+#
+run sync --data images/actual/linux/happyCase/inputsDeductions.png
+run sync --data images/actual/linux/happyCase/outputsDeductions.png
+run sync --data images/actual/linux/happyCase/outputsDeductions2.png
+run sync --data images/expected/linux/happyCase/inputsDeductions.png
+run sync --data images/expected/linux/happyCase/outputsDeductions.png
+run sync --data images/expected/linux/happyCase/outputsDeductions2.png
+run cmp images/expected/linux/happyCase/inputsDeductions.png images/actual/linux/happyCase/inputsDeductions.png
+run cmp images/expected/linux/happyCase/outputsDeductions.png images/actual/linux/happyCase/outputsDeductions.png
+run cmp images/expected/linux/happyCase/outputsDeductions2.png images/actual/linux/happyCase/outputsDeductions2.png
+#
+# Compare the Expenses files
+#
+run sync --data images/actual/linux/happyCase/inputsExpenses.png
+run sync --data images/actual/linux/happyCase/outputsExpenses.png
+run sync --data images/actual/linux/happyCase/outputsExpenses2.png
+run sync --data images/expected/linux/happyCase/inputsExpenses.png
+run sync --data images/expected/linux/happyCase/outputsExpenses.png
+run sync --data images/expected/linux/happyCase/outputsExpenses2.png
+run cmp images/expected/linux/happyCase/inputsExpenses.png images/actual/linux/happyCase/inputsExpenses.png
+run cmp images/expected/linux/happyCase/outputsExpenses.png images/actual/linux/happyCase/outputsExpenses.png
+run cmp images/expected/linux/happyCase/outputsExpenses2.png images/actual/linux/happyCase/outputsExpenses2.png
+#
+# Compare the Income Graph files
+#
+run sync --data images/actual/linux/happyCase/outputsIncomeGraph.png
+run sync --data images/expected/linux/happyCase/outputsIncomeGraph.png
+run cmp images/expected/linux/happyCase/outputsIncomeGraph.png images/actual/linux/happyCase/outputsIncomeGraph.png
+#
+# Compare the Ira files
+#
+run sync --data images/actual/linux/happyCase/inputsIra.png
+run sync --data images/actual/linux/happyCase/outputsIra.png
+run sync --data images/actual/linux/happyCase/outputsIra2.png
+run sync --data images/expected/linux/happyCase/inputsIra.png
+run sync --data images/expected/linux/happyCase/outputsIra.png
+run sync --data images/expected/linux/happyCase/outputsIra2.png
+run cmp images/expected/linux/happyCase/inputsIra.png images/actual/linux/happyCase/inputsIra.png
+run cmp images/expected/linux/happyCase/outputsIra.png images/actual/linux/happyCase/outputsIra.png
+run cmp images/expected/linux/happyCase/outputsIra2.png images/actual/linux/happyCase/outputsIra2.png
+#
+# Compare the Pension files
+#
+run sync --data images/actual/linux/happyCase/inputsPension.png
+run sync --data images/actual/linux/happyCase/outputsPension.png
+run sync --data images/actual/linux/happyCase/outputsPension2.png
+run sync --data images/expected/linux/happyCase/inputsPension.png
+run sync --data images/expected/linux/happyCase/outputsPension.png
+run sync --data images/expected/linux/happyCase/outputsPension2.png
+run cmp images/expected/linux/happyCase/inputsPension.png images/actual/linux/happyCase/inputsPension.png
+run cmp images/expected/linux/happyCase/outputsPension.png images/actual/linux/happyCase/outputsPension.png
+run cmp images/expected/linux/happyCase/outputsPension2.png images/actual/linux/happyCase/outputsPension2.png
+#
+# Compare the Personal files
+#
+run sync --data images/actual/linux/happyCase/inputsPersonal.png
+run sync --data images/expected/linux/happyCase/inputsPersonal.png
+run cmp images/expected/linux/happyCase/inputsPersonal.png images/actual/linux/happyCase/inputsPersonal.png
+#
+# Compare the Roth Ira files
+#
+run sync --data images/actual/linux/happyCase/inputsRoth.png
+run sync --data images/actual/linux/happyCase/outputsRoth.png
+run sync --data images/actual/linux/happyCase/outputsRoth2.png
+run sync --data images/expected/linux/happyCase/inputsRoth.png
+run sync --data images/expected/linux/happyCase/outputsRoth.png
+run sync --data images/expected/linux/happyCase/outputsRoth2.png
+run cmp images/expected/linux/happyCase/inputsRoth.png images/actual/linux/happyCase/inputsRoth.png
+run cmp images/expected/linux/happyCase/outputsRoth.png images/actual/linux/happyCase/outputsRoth.png
+run cmp images/expected/linux/happyCase/outputsRoth2.png images/actual/linux/happyCase/outputsRoth2.png
+#
+# Compare the Salary files
+#
+run sync --data images/actual/linux/happyCase/inputsSalary.png
+run sync --data images/actual/linux/happyCase/outputsSalary.png
+run sync --data images/actual/linux/happyCase/outputsSalary2.png
+run sync --data images/expected/linux/happyCase/inputsSalary.png
+run sync --data images/expected/linux/happyCase/outputsSalary.png
+run sync --data images/expected/linux/happyCase/outputsSalary2.png
+run cmp images/expected/linux/happyCase/inputsSalary.png images/actual/linux/happyCase/inputsSalary.png
+run cmp images/expected/linux/happyCase/outputsSalary.png images/actual/linux/happyCase/outputsSalary.png
+run cmp images/expected/linux/happyCase/outputsSalary2.png images/actual/linux/happyCase/outputsSalary2.png
+#
+# Compare the Savings files
+#
+run sync --data images/actual/linux/happyCase/inputsSavings.png
+run sync --data images/actual/linux/happyCase/outputsSavings.png
+run sync --data images/actual/linux/happyCase/outputsSavings2.png
+run sync --data images/expected/linux/happyCase/inputsSavings.png
+run sync --data images/expected/linux/happyCase/outputsSavings.png
+run sync --data images/expected/linux/happyCase/outputsSavings2.png
+run cmp images/expected/linux/happyCase/inputsSavings.png images/actual/linux/happyCase/inputsSavings.png
+run cmp images/expected/linux/happyCase/outputsSavings.png images/actual/linux/happyCase/outputsSavings.png
+run cmp images/expected/linux/happyCase/outputsSavings2.png images/actual/linux/happyCase/outputsSavings2.png
+#
+# Compare the Savings Graph files
+#
+run sync --data images/actual/linux/happyCase/outputsSavingsGraph.png
+run sync --data images/expected/linux/happyCase/outputsSavingsGraph.png
+run cmp images/expected/linux/happyCase/outputsSavingsGraph.png images/actual/linux/happyCase/outputsSavingsGraph.png
+#
+# Compare the Social Security files
+#
+run sync --data images/actual/linux/happyCase/inputsSocialSecurity.png
+run sync --data images/actual/linux/happyCase/outputsSocialSecurity.png
+run sync --data images/actual/linux/happyCase/outputsSocialSecurity2.png
+run sync --data images/expected/linux/happyCase/inputsSocialSecurity.png
+run sync --data images/expected/linux/happyCase/outputsSocialSecurity.png
+run sync --data images/expected/linux/happyCase/outputsSocialSecurity2.png
+run cmp images/expected/linux/happyCase/inputsSocialSecurity.png images/actual/linux/happyCase/inputsSocialSecurity.png
+run cmp images/expected/linux/happyCase/outputsSocialSecurity.png images/actual/linux/happyCase/outputsSocialSecurity.png
+run cmp images/expected/linux/happyCase/outputsSocialSecurity2.png images/actual/linux/happyCase/outputsSocialSecurity2.png
+#
+# Compare the Taxes files
+#
+run sync --data images/actual/linux/happyCase/inputsTaxes.png
+run sync --data images/actual/linux/happyCase/outputsTaxes.png
+run sync --data images/actual/linux/happyCase/outputsTaxes2.png
+run sync --data images/expected/linux/happyCase/inputsTaxes.png
+run sync --data images/expected/linux/happyCase/outputsTaxes.png
+run sync --data images/expected/linux/happyCase/outputsTaxes2.png
+run cmp images/expected/linux/happyCase/inputsTaxes.png images/actual/linux/happyCase/inputsTaxes.png
+run cmp images/expected/linux/happyCase/outputsTaxes.png images/actual/linux/happyCase/outputsTaxes.png
+run cmp images/expected/linux/happyCase/outputsTaxes2.png images/actual/linux/happyCase/outputsTaxes2.png
+#
+# Compare the generated xml file (Inputs/Save)
+#      401K Growth Rate changed
+#
+run sync --data images/actual/linux/happyCase/demo.xml
+run sync --data images/expected/linux/happyCase/demo.xml
+run cmp images/expected/linux/happyCase/demo.xml images/actual/linux/happyCase/demo.xml
+#
+# Compare the generated xml file (Inputs/Save As)
+#
+run sync --data images/actual/linux/happyCase/temp.xml
+run sync --data images/expected/linux/happyCase/temp.xml
+run cmp images/expected/linux/happyCase/temp.xml images/actual/linux/happyCase/temp.xml
+#
+# Compare the generated pdf file (Pdf/Create)
+#
+run sync --data images/actual/linux/happyCase/demo0000000000.txt
+run sync --data images/expected/linux/happyCase/demo0000000000.txt
+run cmp images/expected/linux/happyCase/demo0000000000.txt images/actual/linux/happyCase/demo0000000000.txt
+#
+# Let the user know to go to the terminal to look at the compares.
+#
+run ogg123 /usr/share/sounds/ubuntu/stereo/message.ogg
+

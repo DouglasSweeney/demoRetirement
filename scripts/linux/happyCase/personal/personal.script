@@ -1,0 +1,16 @@
+#
+# Move to input personal tab
+#
+mouseMoved inputPersonalTab
+#
+# Click on tab
+#
+mouseClicked 1
+delay waitClick
+#
+# Screen Capture
+#
+captureFile   happyCase/inputsPersonal
+screenCapture captureInputEntries
+delay         waitCapture
+

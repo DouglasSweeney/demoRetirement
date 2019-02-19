@@ -1,0 +1,3 @@
+#compare actualInputsPersonal.png expectedInputsPersonal.png diff.png
+compare actualOutputsSalary.png expectedOutputsSalary.png diff.png
+
